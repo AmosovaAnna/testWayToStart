@@ -1,0 +1,164 @@
+@media screen and  (max-width: 1200px) {
+	#name, 
+	#year, 
+	#price,  
+	#status{
+		width: 100%;
+	}
+	.order__price,
+    .order__year,
+    .order__name,
+    .order__appellation,
+    .order__condition,
+    .order__transmit{
+    	width: 31.5%;
+    }
+    .row{
+    	padding-right: 10px;
+    	padding-left: 10px;
+    }
+}
+@media screen and  (max-width: 768px) {
+	.content{
+		max-width: 720px;
+	}
+    .row{
+    	margin-right: -5px;
+    	margin-left: -5px;
+    }
+    .goods__caption{
+    	margin-top: 10px;
+    }
+    .order__appellation{
+    	height: 50px;
+    }
+    .goods__table {
+        margin-bottom: 230px;
+    }
+    .order__price,
+    .order__year,
+    .order__name,
+    .order__appellation,
+    .order__condition,
+    .order__transmit{
+    	width: 30%;
+    }
+    .order__black,
+	.order__gray,
+	.order__red,
+	.order__green{
+		margin-left: 3.5px;
+	}
+}
+
+@media screen and  (max-width: 500px) {
+	.order__black,
+	.order__gray,
+	.order__red,
+	.order__green{
+		margin-left: 22px;
+	}
+	.container{
+		padding: 0;
+	}
+	.goods__tdMain,
+	.goods__main{
+		display: none;
+	}
+	.header__logo{
+		width: 95%;
+		height: 100px;
+	}
+	.header{
+		height: 92px;
+	}
+	.goods__td{
+		display: inline-block;
+	}
+	.content{
+		margin-top: 30px;
+	}
+	.order__characteristics{
+		width: 100%;
+	}
+	.order__year, 
+	.order__price{
+		margin-left: 0px;
+		width: 45%;
+	}
+	.order__price{
+		margin-left: 20px;
+	}
+	#characteristics{
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.order__name{
+		margin-bottom: 2rem;
+	}
+	.order__appellation{
+		margin-bottom: 30px;
+	}
+	.order__condition,
+	.order__transmit{
+		margin-left: 0px;
+		width: 45%;
+	}
+	.order__transmit{
+		margin-left: 20px;
+	}
+	.order__condition{
+		background-position: 90%;
+	}
+	.goods__table{
+		margin-bottom: 0px;
+	}
+	.goods__caption {
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    .goods__delete{
+    	display: block;
+    }
+    .goods__selectChoose{
+    	display: block;
+    }
+    .goods__tr{
+    	border-top: 1px solid #e6e9ea;
+    }
+    .goods__data,
+	.goods__selectColor{
+		margin-left: 0px;
+		width: 45%;
+		text-align: center;
+	}
+	.goods__selectColor{
+		margin-left: 20px;
+		padding: 15px 75px 10px 75px;
+	}
+	.goods__black,
+	.goods__white,
+	.goods__gray,
+	.goods__red,
+	.goods__green{
+		padding: 15px;
+		max-width: 30px;
+	}
+	.goods__availability,
+	.goods__number{
+		margin-left: 0px;
+		width: 45%;
+		text-align: center;
+	}
+	.goods__number{
+		margin-left: 20px;
+	}
+	.goods__title{
+		text-align: center;
+		display: block;
+	}
+	.goods__td span{
+		text-align: left;
+		display: block;
+	}
+}

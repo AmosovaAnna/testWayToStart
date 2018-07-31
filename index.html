@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+	<link href="css/jquery/jquery.formstyler.css" rel="stylesheet">
+    <link href="css/jquery/jquery.formstyler.theme.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/content.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/css-responsive/style.css">
+	<title>Тест</title>
+</head>
+<body>
+	<div class="header">
+		<img class="header__logo" src="img/header-logo.png">
+	</div>
+	<div class="container content">
+		<h1 class="content__heading">¡Ay caramba!</h1>
+	    <div class="order">
+	    	<form id="characteristics">
+                <div class="row">
+                	<p class="order__characteristics order__name">
+                	    <label hidden="true" class="order__label" for="name">Название</label>
+                        <input name="name" type="text" placeholder="Название" id="name">
+                    </p>
+                    <p class="order__characteristics order__year">
+                	    <label hidden="true" class="order__label" for="year">Год</label>
+                        <input name="year" type="text" placeholder="Год" id="year">
+                    </p>
+                    <p class="order__characteristics order__price">
+                	    <label hidden="true" class="order__label" for="price">Цена</label>
+                        <input name="price" type="text" placeholder="Цена" id="price">
+                    </p>
+                </div>
+                <div class="row">
+                    <p class="order__characteristics order__description">
+                	    <label hidden="true" class="order__label" for="description">Описание</label>
+                        <textarea name="description" placeholder="Описание" id="description"></textarea>
+                    </p>
+                </div>
+                <div class="row">
+                    <p class="order__characteristics order__appellation">
+                	    <label class="order__label">Цвет</label>
+                        <input class="order__color" value="white" hidden="true" type="radio" name="color" id="white">
+                        <label class="order__white"  for="white"></label>
+                        <input class="order__color" value="black" hidden="true" type="radio" name="color" id="black">
+                        <label class="order__black"  for="black"></label>
+                        <input class="order__color" value="gray" hidden="true" type="radio" name="color" id="gray">
+                        <label class="order__gray"  for="gray"></label>
+                        <input class="order__color" value="red" hidden="true" type="radio" name="color" id="red">
+                        <label class="order__red"  for="red"></label>
+                        <input class="order__color" value="green" hidden="true" type="radio" name="color" id="green">
+                        <label class="order__green"  for="green"></label>
+                    </p>
+                    <div class="order__characteristics order__condition">
+                        <div class="order__status" id="status">Статус</div>
+                            <div class="order__container">
+                            	<input class="order__StHd" value="В наличии" hidden="true" type="radio" name="status" id="status1">
+                                <label for="status1" class="order__option">В наличии</label>
+                                <input class="order__StHd" value="Ожидается" hidden="true" type="radio" name="status" id="status2">
+                                <label for="status2" class="order__option">Ожидается</label>
+                                <input class="order__StHd" value="Нет в наличии" hidden="true" type="radio" name="status" id="status3">
+                                <label for="status3" class="order__option">Нет в наличии</label>
+                            </div>
+                    </div>
+                    <p class="order__characteristics order__transmit">
+                        <button type="submit" form="characteristics" class="order__send" id="send">Отправить<img class="order__sendButton" src="img/order-button.png"></button>
+                    </p>
+                </div>
+            </form>
+	    </div>
+	    <div class="goods">
+	    	<h2 class="goods__caption">Автомобили в наличии</h2>
+	    	<table class="goods__table">
+	    		<tr class="goods__main">
+	    			<td class="goods__tdMain goods__name goods__borderLT">Название</td>
+	    			<td class="goods__tdMain goods__year">Год</td>
+	    			<td class="goods__tdMain goods__color">Цвет</td>
+	    			<td class="goods__tdMain goods__status">Статус</td>
+	    			<td class="goods__tdMain goods__price">Цена</td>
+	    			<td class="goods__tdMain goods__deleting goods__borderRT"></td>
+	    		</tr>
+	    		<tr class="goods__tr">
+	    			<td class="goods__td goods__title">1.6 MT Ambiente 85 л.с. МКПП<br><span>+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3</span></td>
+	    			<td class="goods__td goods__data">2012</td>
+	    			<td class="goods__td goods__selectColor"><div class="goods__black"></div></td>
+	    			<td class="goods__td goods__availability">Ожидается</td>
+	    			<td class="goods__td goods__number">1 689 000 руб.</td>
+	    			<td class="goods__td goods__selectChoose"><div class="goods__delete">Удалить</div></td>
+	    		</tr>
+	    		<tr class="goods__tr">
+	    			<td class="goods__td goods__title">1.6 MT Ambiente Plus 105 л.с. МКПП</td>
+	    			<td class="goods__td goods__data">2012</td>
+	    			<td class="goods__td goods__selectColor"><div class="goods__white"></div></td>
+	    			<td class="goods__td goods__availability">Ожидается</td>
+	    			<td class="goods__td goods__number">1 189 900 руб.</td>
+	    			<td class="goods__td goods__selectChoose"><div class="goods__inquiry">Запрос</div></td>
+	    		</tr>
+	    		<tr class="goods__tr">
+	    			<td class="goods__td goods__title">1.6 MT Trend 105 л.с. МКПП</td>
+	    			<td class="goods__td goods__data">2012</td>
+	    			<td class="goods__td goods__selectColor"><div class="goods__black"></div></td>
+	    			<td class="goods__td goods__availability">В наличии</td>
+	    			<td class="goods__td goods__number">1 459 000 руб.</td>
+	    			<td class="goods__td goods__selectChoose"><div class="goods__delete">Удалить</div></td>
+	    		</tr>
+	    		<tr class="goods__tr">
+	    			<td class="goods__td goods__title">1.6 PowerShift Trend Sport 105 л.с. АКПП</td>
+	    			<td class="goods__td goods__data">2012</td>
+	    			<td class="goods__td goods__selectColor"><div class="goods__gray"></div></td>
+	    			<td class="goods__td goods__availability">Ожидается</td>
+	    			<td class="goods__td goods__number">1 459 000 руб.</td>
+	    			<td class="goods__td goods__selectChoose"><div class="goods__delete">Удалить</div></td>
+	    		</tr>
+	    		<tr class="goods__tr">
+	    			<td class="goods__td goods__title">2.0 MT Trend Sport 150 л.с. МКПП</td>
+	    			<td class="goods__td goods__data">2012</td>
+	    			<td class="goods__td goods__selectColor"><div class="goods__red"></div></td>
+	    			<td class="goods__td goods__availability">Ожидается</td>
+	    			<td class="goods__td goods__number">786 000 руб.</td>
+	    			<td class="goods__td goods__selectChoose"><div class="goods__delete">Удалить</div></td>
+	    		</tr>
+	    		<tr class="goods__tr goods__borderB">
+	    			<td class="goods__td goods__title goods__borderLB">2.0 PowerShift Trend Sport 150 л.с. АКПП<br><span>+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3</span></td>
+	    			<td class="goods__td goods__data">2013</td>
+	    			<td class="goods__td goods__selectColor"><div class="goods__green"></div></td>
+	    			<td class="goods__td goods__availability">Нет в наличии</td>
+	    			<td class="goods__td goods__number">821 000 руб.</td>
+	    			<td class="goods__td goods__borderRB goods__selectChoose"><div class="goods__delete">Удалить</div></td>
+	    		</tr>
+	    	</table>
+	    </div>
+	</div>
+	<div class="footer">
+		<p class="footer__logo">© 2015 CAPTAIN QUACK<br> Десница тысячелетия и моллюск! </p>
+	</div>
+	
+    <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+    <script src="js/jquery/jquery.formstyler.min.js"></script>
+    <script type="text/javascript" src="js/content.js"></script>
+</body>
+</html>

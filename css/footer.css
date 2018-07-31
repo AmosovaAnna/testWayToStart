@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.footer{
+	background-color: #282d30;
+	text-align: center;
+	height: 102px;
+	width: 100%;
+	padding-top: 40px;
+}
+
+.footer__logo{
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}

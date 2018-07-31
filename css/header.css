@@ -1,0 +1,11 @@
+.header__logo{
+	height: 110px;
+	width: 495px;
+}
+
+.header{
+	background-color: #282d30;
+	height: 102px;
+	width: 100%;
+	text-align: center;
+}
